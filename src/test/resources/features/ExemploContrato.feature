@@ -1,6 +1,6 @@
 # language: pt
 
-@regressivos
+@regressivo
 Funcionalidade: Validar o contrato ao realizar um cadastro bem-sucedido de entrega
 
   Cenario: Validar contrato do cadastro bem-sucedido de entrega

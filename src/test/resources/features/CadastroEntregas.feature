@@ -21,8 +21,6 @@ Funcionalidade: Cadastro de nova entrega
       | statusEntrega  | EM_ROTA    |
       | dataEntrega    | 2024-08-22 |
     Quando eu enviar a requisicao para o endpoint "/entregas"
-    Então o status code da resposta deve ser 404
+    Então o status code da resposta deve ser 400
     E o corpo da resposta de erro da api deve retornar a mensagem "Dados fornecidos estão em formato inválido."
-
-
 
